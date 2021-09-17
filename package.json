@@ -1,6 +1,6 @@
 {
   "name": "@antisoftwareclub/i18next-pseudo",
-  "version": "2.2.1-antisoftware.1",
+  "version": "2.3.0-antisoftware.0",
   "description": "Pseudolocalization plugin for i18next",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -40,8 +40,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/antisoftwareclub/i18next-pseudo.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   }
 }
