@@ -28,6 +28,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           registry-url: 'https://npm.pkg.github.com'
+          scope: '@antisoftwareclub'
       - run: npm install
       - run: npm publish
         env:
