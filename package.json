@@ -1,6 +1,6 @@
 {
-  "name": "i18next-pseudo",
-  "version": "2.2.1",
+  "name": "@antisoftwareclub/i18next-pseudo",
+  "version": "2.2.1-antisoftware.0",
   "description": "Pseudolocalization plugin for i18next",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -25,7 +25,7 @@
     "test": "nwb test",
     "test:coverage": "nwb test --coverage",
     "test:watch": "nwb test --server",
-    "prepare": "nwb build-web-module"
+    "prepare": "npm run build"
   },
   "dependencies": {
     "i18next": "^19.1.0"
@@ -39,5 +39,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/MattBoatman/i18next-pseudo.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
