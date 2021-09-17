@@ -1,4 +1,4 @@
-declare module "i18next-pseudo" {
+declare module "@antisoftwareclub/i18next-pseudo" {
   import { PostProcessorModule } from "i18next";
 
   interface Options {
