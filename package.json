@@ -1,6 +1,6 @@
 {
   "name": "@antisoftwareclub/i18next-pseudo",
-  "version": "2.3.0-antisoftware.1",
+  "version": "2.3.0-antisoftware.2",
   "description": "Pseudolocalization plugin for i18next",
   "main": "lib/index.js",
   "module": "es/index.js",
