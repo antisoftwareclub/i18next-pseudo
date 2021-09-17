@@ -27,8 +27,12 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
-          registry-url: 'https://registry.npmjs.org'
       - run: npm install
-      - run: npm publish
+      - name: Publish
+        run: |
+          echo _auth=$NODE_AUTH_TOKEN >> .npmrc
+          echo email=corp@antisoftware.club >> .npmrc
+          echo always-auth=true >> .npmrc
+          npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
